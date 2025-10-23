@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the world of Hungarian wines through expert articles, tasting notes, vineyard stories, and winemaking traditions. Educational content from HURO Winery.">
+    <meta name="keywords" content="Hungarian wine blog, wine tasting, Tokaji, wine education, vineyard stories, winemaking, wine pairing">
+    <title>Wine Blog - HURO Winery | Stories, Education & Tasting Notes</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="HURO Winery Blog - Hungarian Wine Stories & Education">
+    <meta property="og:description" content="Discover the world of Hungarian wines through expert articles, tasting notes, and vineyard stories.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&q=80">
+
+    <!-- Structured Data for Blog -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "HURO Winery Blog",
+      "description": "Expert articles about Hungarian wines, tasting notes, and winemaking traditions",
+      "publisher": {
+        "@type": "Organization",
+        "name": "HURO Winery"
+      }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" aria-label="HURO Winery Home">HURO</a>
+            </div>
+            <div class="nav-menu" id="navMenu" role="navigation" aria-label="Main navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="wines.html" class="nav-link">Our Wines</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="blog.html" class="nav-link active" aria-current="page">Blog</a>
+                <a href="honey.html" class="nav-link">Bee HURO Honey</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header blog-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 class="page-title fade-in">Wine Stories & Insights</h1>
+            <p class="page-subtitle fade-in-delay">Exploring the rich world of Hungarian wines</p>
+        </div>
+    </section>
+
+    <!-- Blog Categories Filter -->
+    <section class="blog-filter-section">
+        <div class="container">
+            <div class="blog-filter-buttons fade-up">
+                <button class="blog-filter-btn active" data-blog-filter="all">All Articles</button>
+                <button class="blog-filter-btn" data-blog-filter="education">Wine Education</button>
+                <button class="blog-filter-btn" data-blog-filter="tasting">Tasting Notes</button>
+                <button class="blog-filter-btn" data-blog-filter="stories">Vineyard Stories</button>
+                <button class="blog-filter-btn" data-blog-filter="pairing">Food Pairing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="featured-article-section" data-blog-category="education">
+        <div class="container-wide">
+            <div class="featured-badge fade-up">Featured Article</div>
+            <article class="featured-article fade-up-delay">
+                <div class="featured-article-image">
+                    <img src="img/blog1.jpg" alt="Golden Tokaji Aszú wine in glass with vineyard background" loading="lazy">
+                </div>
+                <div class="featured-article-content">
+                    <div class="article-meta">
+                        <span class="article-category">Wine Education</span>
+                        <span class="article-date">
+                            <time datetime="2025-10-15">October 15, 2025</time>
+                        </span>
+                        <span class="article-read-time">8 min read</span>
+                    </div>
+                    <h2 class="featured-article-title">Tokaji Aszú: The Wine That Kings Once Treasured</h2>
+                    <p class="featured-article-excerpt">
+                        Discover the fascinating history and unique production method of Tokaji Aszú, the legendary sweet wine that captivated European royalty for centuries. From noble rot to the modern renaissance, explore what makes this Hungarian treasure truly exceptional.
+                    </p>
+                    <a href="blog-tokaji-aszu.html" class="article-link">Read Full Article →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Blog Grid Section -->
+    <section class="blog-grid-section">
+        <div class="container-wide">
+            <div class="blog-grid">
+                <!-- Article 1 - Tasting -->
+                <article class="blog-card fade-up" data-blog-category="tasting">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80" alt="Furmint white wine tasting" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-furmint-tasting.html" class="blog-card-link" aria-label="Read article about Furmint tasting notes">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Tasting Notes</span>
+                            <span class="article-date">
+                                <time datetime="2025-10-10">October 10, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Furmint: Discovering Hungary's Noble White Grape</h3>
+                        <p class="blog-card-excerpt">
+                            Professional tasting notes and exploration of Furmint's unique mineral character, high acidity, and aging potential. Learn what makes this indigenous variety so special.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By Katalin Nagy</span>
+                            <span class="article-read-time">5 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 - Stories -->
+                <article class="blog-card fade-up-delay" data-blog-category="stories">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80" alt="Hungarian vineyard at sunset" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-villany-vineyards.html" class="blog-card-link" aria-label="Read article about Villány vineyards">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Vineyard Stories</span>
+                            <span class="article-date">
+                                <time datetime="2025-10-05">October 5, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">A Day in Villány: Where Limestone Meets Passion</h3>
+                        <p class="blog-card-excerpt">
+                            Journey through Villány's limestone hills and meet the passionate winemakers crafting world-class reds. Discover the terroir that defines Hungary's premier red wine region.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By András Kovács</span>
+                            <span class="article-read-time">7 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 - Pairing -->
+                <article class="blog-card fade-up-delay-2" data-blog-category="pairing">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Wine and food pairing on elegant table" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-hungarian-pairing.html" class="blog-card-link" aria-label="Read article about Hungarian wine and food pairing">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Food Pairing</span>
+                            <span class="article-date">
+                                <time datetime="2025-09-28">September 28, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Hungarian Wines & Traditional Cuisine: A Perfect Match</h3>
+                        <p class="blog-card-excerpt">
+                            Expert pairing guide for Hungarian wines with traditional dishes. From goulash to chimney cake, discover which wines complement Hungary's rich culinary heritage.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By Katalin Nagy</span>
+                            <span class="article-read-time">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 - Education -->
+                <article class="blog-card fade-up" data-blog-category="education">
+                    <div class="blog-card-image">
+                        <img src="img/blog2.jpg" alt="Red wine in glass with oak barrels" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-bikaver-guide.html" class="blog-card-link" aria-label="Read comprehensive guide to Bikavér">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Wine Education</span>
+                            <span class="article-date">
+                                <time datetime="2025-09-20">September 20, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Understanding Egri Bikavér: The Bull's Blood Legend</h3>
+                        <p class="blog-card-excerpt">
+                            Comprehensive guide to Hungary's most famous red wine blend. Explore the legend, the grape varieties, and what makes modern Bikavér exceptional.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By András Kovács</span>
+                            <span class="article-read-time">9 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 - Tasting -->
+                <article class="blog-card fade-up-delay" data-blog-category="tasting">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80" alt="Rosé wine tasting in vineyard" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-rose-season.html" class="blog-card-link" aria-label="Read article about rosé wine season">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Tasting Notes</span>
+                            <span class="article-date">
+                                <time datetime="2025-09-15">September 15, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Summer in a Glass: Kadarka Rosé Tasting Notes</h3>
+                        <p class="blog-card-excerpt">
+                            Explore the delicate aromatics and refreshing character of Kadarka rosé. Perfect for warm days, this wine showcases Hungary's lighter side.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By Katalin Nagy</span>
+                            <span class="article-read-time">4 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 - Stories -->
+                <article class="blog-card fade-up-delay-2" data-blog-category="stories">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1515779122185-2390ccdf060b?w=800&q=80" alt="Historic wine cellar with barrels" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-tokaj-cellars.html" class="blog-card-link" aria-label="Read article about historic Tokaj cellars">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Vineyard Stories</span>
+                            <span class="article-date">
+                                <time datetime="2025-09-08">September 8, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Ancient Cellars of Tokaj: Where History Meets Wine</h3>
+                        <p class="blog-card-excerpt">
+                            Explore the underground labyrinth of historic cellars where Tokaji wines have matured for centuries. A journey through time and tradition.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By András Kovács</span>
+                            <span class="article-read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 7 - Education -->
+                <article class="blog-card fade-up" data-blog-category="education">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=800&q=80" alt="Wine grapes on vine" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-indigenous-grapes.html" class="blog-card-link" aria-label="Read guide to indigenous Hungarian grape varieties">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Wine Education</span>
+                            <span class="article-date">
+                                <time datetime="2025-09-01">September 1, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Indigenous Grape Varieties: Hungary's Viticultural Treasure</h3>
+                        <p class="blog-card-excerpt">
+                            Comprehensive guide to Hungary's unique grape varieties. From Hárslevelű to Kékfrankos, discover what makes these grapes distinctively Hungarian.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By András Kovács</span>
+                            <span class="article-read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 8 - Pairing -->
+                <article class="blog-card fade-up-delay" data-blog-category="pairing">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Cheese board with wine pairing" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-cheese-wine.html" class="blog-card-link" aria-label="Read article about cheese and Hungarian wine pairing">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Food Pairing</span>
+                            <span class="article-date">
+                                <time datetime="2025-08-25">August 25, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Cheese & Hungarian Wine: An Expert Pairing Guide</h3>
+                        <p class="blog-card-excerpt">
+                            Master the art of pairing Hungarian wines with artisan cheeses. Professional sommelier tips for creating perfect flavor combinations.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By Katalin Nagy</span>
+                            <span class="article-read-time">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 9 - Stories -->
+                <article class="blog-card fade-up-delay-2" data-blog-category="stories">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=800&q=80" alt="Winemaker working in vineyard" loading="lazy">
+                        <div class="blog-card-overlay">
+                            <a href="blog-small-producers.html" class="blog-card-link" aria-label="Read article about small Hungarian wine producers">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="article-meta">
+                            <span class="article-category">Vineyard Stories</span>
+                            <span class="article-date">
+                                <time datetime="2025-08-18">August 18, 2025</time>
+                            </span>
+                        </div>
+                        <h3 class="blog-card-title">Meet the Producers: Guardians of Hungarian Wine Tradition</h3>
+                        <p class="blog-card-excerpt">
+                            Personal stories from small, family-run estates preserving traditional winemaking. Discover the passion behind every bottle we source.
+                        </p>
+                        <div class="article-footer">
+                            <span class="article-author">By András Kovács</span>
+                            <span class="article-read-time">7 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-logo">HURO</h3>
+                <p class="footer-tagline">Premium wines with royal heritage</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wines.html">Our Wines</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:info@hurowinery.com">info@hurowinery.com</a></li>
+                    <li>+44 (0) XXX XXX XXX</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/huroroyalwines" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Facebook">Facebook</a>
+                    <a href="https://www.instagram.com/hurowinery" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 HURO Winery. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>

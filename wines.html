@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium collection of Hungarian wines - from legendary Tokaji Aszú to bold Egri Bikavér. Exceptional wines from Hungary's finest vineyards.">
+    <title>Our Wine Collection - HURO Winery | Premium Hungarian Wines</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">HURO</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="wines.html" class="nav-link active">Our Wines</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="honey.html" class="nav-link">Bee HURO Honey</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header wines-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 class="page-title fade-in">Our Wine Collection</h1>
+            <p class="page-subtitle fade-in-delay">Exceptional wines from Hungary's finest vineyards</p>
+        </div>
+    </section>
+
+    <!-- Wine Filter Section -->
+    <section class="wine-filter-section">
+        <div class="container">
+            <div class="filter-buttons fade-up">
+                <button class="filter-btn active" data-filter="all">All Wines</button>
+                <button class="filter-btn" data-filter="white">White Wines</button>
+                <button class="filter-btn" data-filter="red">Red Wines</button>
+                <button class="filter-btn" data-filter="rose">Rosé Wines</button>
+                <button class="filter-btn" data-filter="sweet">Sweet Wines</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Wines Section -->
+    <section class="wines-catalogue-section" data-wine-category="white">
+        <div class="container-wide">
+            <div class="category-header fade-up">
+                <h2 class="section-title">White Wines</h2>
+                <p class="category-description">Crisp, elegant whites with distinctive Hungarian character</p>
+            </div>
+
+            <div class="wines-grid-catalogue">
+                <!-- Furmint -->
+                <div class="wine-card-catalogue fade-up" data-category="white">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine1.jpg" alt="Furmint white wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2022</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Tokaj Region</p>
+                        <h3 class="wine-name">Furmint</h3>
+                        <p class="wine-description">
+                            Hungary's most noble white grape variety. This dry Furmint offers high acidity with mineral character, citrus notes, and hints of green apple. Crisp and refreshing with excellent ageing potential.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Furmint</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 13%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Dry White</span>
+                        </div>
+                        <a href="product-furmint.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Hárslevelű -->
+                <div class="wine-card-catalogue fade-up-delay" data-category="white">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine2.jpg" alt="Hárslevelű white wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2023</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Tokaj Region</p>
+                        <h3 class="wine-name">Hárslevelű</h3>
+                        <p class="wine-description">
+                            Known as "Linden Leaf" for its distinctive aroma. This aromatic white wine presents floral notes, honey undertones, and a full-bodied character. Beautifully balanced with a silky texture.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Hárslevelű</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 12.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Aromatic White</span>
+                        </div>
+                        <a href="product-harslevel.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Olaszrizling -->
+                <div class="wine-card-catalogue fade-up-delay-2" data-category="white">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine3.jpg" alt="Olaszrizling white wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2023</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Lake Balaton</p>
+                        <h3 class="wine-name">Olaszrizling</h3>
+                        <p class="wine-description">
+                            A light, fresh white wine with vibrant acidity. Offers delicate citrus and floral aromas with a clean, mineral finish. Perfect as an aperitif or paired with lighter dishes.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> Welschriesling</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 11.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Light White</span>
+                        </div>
+                        <a href="product-olaszrizling.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Red Wines Section -->
+    <section class="wines-catalogue-section alt-bg" data-wine-category="red">
+        <div class="container-wide">
+            <div class="category-header fade-up">
+                <h2 class="section-title">Red Wines</h2>
+                <p class="category-description">Bold, structured reds with depth and character</p>
+            </div>
+
+            <div class="wines-grid-catalogue">
+                <!-- Egri Bikavér -->
+                <div class="wine-card-catalogue fade-up" data-category="red">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine4.jpg" alt="Egri Bikavér red wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2021</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Eger Region</p>
+                        <h3 class="wine-name">Egri Bikavér</h3>
+                        <p class="wine-description">
+                            The legendary "Bull's Blood of Eger". A powerful blend of Hungarian grape varieties creating a full-bodied wine with mature tannins, notes of dark fruits, spices, and subtle oak influence.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Blend:</strong> Kékfrankos, Kadarka, Zweigelt</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 14%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Full-bodied Red</span>
+                        </div>
+                        <a href="product-bulls-blood.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Kékfrankos -->
+                <div class="wine-card-catalogue fade-up-delay" data-category="red">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine5.jpg" alt="Kékfrankos red wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2022</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Villány Region</p>
+                        <h3 class="wine-name">Kékfrankos</h3>
+                        <p class="wine-description">
+                            Hungary's signature red grape variety. Medium-bodied with bright acidity, offering cherry and red berry flavours with peppery spice notes. Elegant and food-friendly.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Kékfrankos</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 13.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Medium Red</span>
+                        </div>
+                        <a href="product-kekfrankos.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Kadarka -->
+                <div class="wine-card-catalogue fade-up-delay-2" data-category="red">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine6.jpg" alt="Kadarka red wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2022</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Szekszárd Region</p>
+                        <h3 class="wine-name">Kadarka</h3>
+                        <p class="wine-description">
+                            An ancient Hungarian variety making a comeback. Light to medium-bodied with delicate tannins, offering red fruit flavours, gentle spice, and a silky texture.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Kadarka</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 12.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Light Red</span>
+                        </div>
+                        <a href="product-kadarka.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rosé Wines Section -->
+    <section class="wines-catalogue-section" data-wine-category="rose">
+        <div class="container-wide">
+            <div class="category-header fade-up">
+                <h2 class="section-title">Rosé Wines</h2>
+                <p class="category-description">Elegant, refreshing rosés for every occasion</p>
+            </div>
+
+            <div class="wines-grid-catalogue">
+                <!-- Kadarka Rosé -->
+                <div class="wine-card-catalogue fade-up" data-category="rose">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine7.jpg" alt="Kadarka Rosé wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2023</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Szekszárd Region</p>
+                        <h3 class="wine-name">Kadarka Rosé</h3>
+                        <p class="wine-description">
+                            A delicate rosé with beautiful pale pink colour. Aromas of fresh strawberries and raspberries, with refreshing acidity and a citrus-driven finish. Ideal for warm days.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Kadarka</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 12%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Dry Rosé</span>
+                        </div>
+                        <a href="product-rose.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Merlot Rosé -->
+                <div class="wine-card-catalogue fade-up-delay" data-category="rose">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine8.jpg" alt="Merlot Rosé wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2023</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Villány Region</p>
+                        <h3 class="wine-name">Merlot Rosé</h3>
+                        <p class="wine-description">
+                            A fuller-bodied rosé with deeper colour and more structure. Red berry fruits, watermelon notes, and a smooth, rounded palate. Perfect with grilled foods.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grape:</strong> 100% Merlot</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 12.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Medium Rosé</span>
+                        </div>
+                        <a href="product-merlot-rose.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sweet Wines Section -->
+    <section class="wines-catalogue-section alt-bg" data-wine-category="sweet">
+        <div class="container-wide">
+            <div class="category-header fade-up">
+                <h2 class="section-title">Sweet & Dessert Wines</h2>
+                <p class="category-description">The jewels of Hungarian winemaking tradition</p>
+            </div>
+
+            <div class="wines-grid-catalogue">
+                <!-- Tokaji Aszú 5 Puttonyos -->
+                <div class="wine-card-catalogue fade-up" data-category="sweet">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine9.jpg" alt="Tokaji Aszú dessert wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge premium">2020</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Tokaj Region</p>
+                        <h3 class="wine-name">Tokaji Aszú 5 Puttonyos</h3>
+                        <p class="wine-description">
+                            The "Wine of Kings". A legendary sweet wine with rich golden colour, notes of honey, apricot, and dried figs. Perfect balance of sweetness and acidity creates a wine of exceptional elegance.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grapes:</strong> Furmint, Hárslevelű</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 11%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Sweet Dessert Wine</span>
+                        </div>
+                        <a href="product-tokaji.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Tokaji Late Harvest -->
+                <div class="wine-card-catalogue fade-up-delay" data-category="sweet">
+                    <div class="wine-image-wrapper-catalogue">
+                        <img src="img/wine10.jpg" alt="Tokaji Late Harvest wine bottle" class="wine-image" loading="lazy">
+                        <div class="wine-badge">2021</div>
+                    </div>
+                    <div class="wine-info-catalogue">
+                        <p class="wine-region">Tokaj Region</p>
+                        <h3 class="wine-name">Tokaji Late Harvest</h3>
+                        <p class="wine-description">
+                            A sweet wine made from late-harvested grapes. Offers honeyed fruit character with apricot and peach notes. Less intense than Aszú but beautifully balanced and approachable.
+                        </p>
+                        <div class="wine-details">
+                            <span class="wine-detail"><strong>Grapes:</strong> Furmint, Hárslevelű</span>
+                            <span class="wine-detail"><strong>ABV:</strong> 10.5%</span>
+                            <span class="wine-detail"><strong>Style:</strong> Sweet White</span>
+                        </div>
+                        <a href="product-late-harvest.html" class="wine-cta">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section-wines">
+        <div class="container">
+            <div class="cta-content fade-up">
+                <h2 class="section-title">Interested in Our Collection?</h2>
+                <p class="cta-text">
+                    Contact us to discuss availability, pricing, and tasting opportunities.
+                </p>
+                <a href="contact.html" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-logo">HURO</h3>
+                <p class="footer-tagline">Premium wines with royal heritage</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wines.html">Our Wines</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li>info@hurowinery.com</li>
+                    <li>+44 (0) XXX XXX XXX</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/huroroyalwines" target="_blank" rel="noopener" class="social-link">Facebook</a>
+                    <a href="https://www.instagram.com/hurowinery" target="_blank" rel="noopener" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 HURO Winery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
